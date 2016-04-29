@@ -1,10 +1,22 @@
 {% extends 'layouts/base.html' %}
 {% block content %}
-<h1> Document Distance </h1>
+{% load bootstrap %}
+<h1 class="text-center"> Document Distance Finder </h1>
 
-<form action="" method="post">
+<form action="" method="post" role="form">
 {% csrf_token %}
-{{form}}
-<button type="submit">Process</button>
+<div class="container"
+  <div class=row>
+    <div class="col-sm-6">
+      {{form.doc1|bootstrap}}
+    </div>
+    <div class="col-sm-6">
+      {{form.doc2|bootstrap}}
+    </div>
+  </div>
+  <div class="row text-center">
+  <button type="submit" style="margin-top:50px;">Process</button>
+  </div>
+</div>
 </form>
 {% endblock %}

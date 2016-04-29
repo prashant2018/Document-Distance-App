@@ -1,5 +1,15 @@
 {% extends 'layouts/base.html' %}
 {% block content %}
-<h1>Result</h1>
-{{result}}
+<div class="bodyRes">
+<div class="container container-fluid marg">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 text-center jumbotron">
+      <span class="text-center text-danger fontHead" >Result</span><br>
+      <span class="text-center text-primary fontRes">{{result}}</span>
+    </div>
+    <div class="col-md-4"></div>
+
+</div>
+</div>
 {% endblock %}
