@@ -3,7 +3,7 @@ import math
 class DocDist(object):
 
     def __init__(self,doc):
-        self.doc = doc
+        self.doc = doc.lower()
 
     def readDoc(self):
         self.d = {}
