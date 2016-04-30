@@ -18,7 +18,18 @@
   font-size:30px;
   font-style: oblique;
 }
-bodyRes{
-  background-color: #B6B6B6;
+body{
+  background-color: #fbfbfb;
 
+}
+.mtop1{
+  font-family: 'Tangerine', serif;
+  font-size: 65px;
+  -webkit-box-shadow: 1px 5px 16px -6px rgba(0,0,0,0.3);
+  -moz-box-shadow: 1px 5px 16px -6px rgba(0,0,0,0.3);
+  box-shadow: 1px 5px 16px -6px rgba(0,0,0,0.3);
+
+}
+.mtop2{
+  margin-top:50px;
 }
